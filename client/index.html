@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!-- Primary Meta -->
+    <title>Story Vault — The Professional Workspace for Modern Storytellers</title>
+    <meta name="description" content="Story Vault is a distraction-free writing workspace combining scene versioning, character profiles, and world-building tools — built for professional writers and novelists." />
+    <meta name="keywords" content="writing software, novel writing app, story versioning, character manager, world building, manuscript tool, writing workspace, fiction writing" />
+    <meta name="author" content="Story Vault" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://storyvault.local/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+
+    <!-- Open Graph (Facebook, LinkedIn, AI crawlers) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://storyvault.local/" />
+    <meta property="og:title" content="Story Vault — The Professional Workspace for Modern Storytellers" />
+    <meta property="og:description" content="A sanctuary for your prose. Scene versioning, character profiles, and world-building tools in a distraction-free environment built for serious writers." />
+    <meta property="og:image" content="/images/logo.png" />
+    <meta property="og:image:alt" content="Story Vault logo" />
+    <meta property="og:site_name" content="Story Vault" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Story Vault — The Professional Workspace for Modern Storytellers" />
+    <meta name="twitter:description" content="A sanctuary for your prose. Scene versioning, character profiles, and world-building tools in a distraction-free environment built for serious writers." />
+    <meta name="twitter:image" content="/images/logo.png" />
+
+    <!-- JSON-LD Structured Data (Google + AI crawlers) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Story Vault",
+      "url": "https://storyvault.local",
+      "description": "Story Vault is a professional writing workspace for novelists and storytellers. It combines scene versioning (Git for Stories), character profile management, world-building notes, and manuscript export tools in a distraction-free, analog-inspired environment.",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Scene versioning with draft, revised, and final states",
+        "Main story assembly from scene versions",
+        "Character profile management with custom attributes",
+        "World-building notes organized by category",
+        "Manuscript export to Markdown, DOCX, and PDF",
+        "Encrypted project backup and restore (SVP format)",
+        "Full-text search across all project content",
+        "Version diff comparison between scene drafts"
+      ],
+      "screenshot": "/images/logo.png",
+      "creator": {
+        "@type": "Organization",
+        "name": "Story Vault"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+      const endpoint = import.meta.env.VITE_ANALYTICS_ENDPOINT;
+      const websiteId = import.meta.env.VITE_ANALYTICS_WEBSITE_ID;
+      if (endpoint && websiteId) {
+        const script = document.createElement("script");
+        script.defer = true;
+        script.src = `${endpoint}/umami`;
+        script.dataset.websiteId = websiteId;
+        document.body.appendChild(script);
+      }
+    </script>
+  </body>
+
+</html>

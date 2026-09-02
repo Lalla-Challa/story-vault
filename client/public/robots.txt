@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /terms
+Allow: /privacy
+Allow: /support
+
+# Block authenticated/private areas
+Disallow: /projects
+Disallow: /projects/
+Disallow: /login
+Disallow: /api/
+
+Sitemap: https://storyvault.local/sitemap.xml

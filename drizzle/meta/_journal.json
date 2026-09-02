@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787965504962,
+      "tag": "0000_fluffy_ezekiel",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787967384354,
+      "tag": "0001_petite_iron_monger",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787971164859,
+      "tag": "0002_furry_lake",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787973252947,
+      "tag": "0003_equal_giant_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787978005386,
+      "tag": "0004_aspiring_the_stranger",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1788006364226,
+      "tag": "0005_wide_mad_thinker",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1788109731869,
+      "tag": "0006_ccm_core_refactor",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1788278400000,
+      "tag": "0007_missing_indexes",
+      "breakpoints": true
+    }
+  ]
+}
